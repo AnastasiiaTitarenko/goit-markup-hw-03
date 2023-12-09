@@ -71,6 +71,7 @@ section {
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
+  margin-right: 76px;
 }
 /* Navigation header */
 .nav-header {
@@ -89,6 +90,7 @@ section {
   line-height: 1.5;
   text-decoration: none;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-header-link:hover,
@@ -99,8 +101,7 @@ section {
 /* Contacts */
 .header-container .nav-contacts {
   display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .address {
@@ -180,11 +181,13 @@ section {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+.feature-contain {
+  width: calc((100% - 72px) / 4);
+  background-color: #ffffff;
+}
 .feature-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
-  background-color: #ffffff;
 }
 .feature-item {
   display: flex;
@@ -209,38 +212,35 @@ section {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
-.team-section-background {
+.team-section-settings {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-.person-name {
+.person-info {
+  padding: 32px 0;
+  text-align: center;
+  letter-spacing: 0.02em;
   display: flex;
   width: 264px;
   flex-direction: column;
+}
+.person-name {
   color: #2e2f42;
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 .person-position {
-  display: flex;
-  width: 264px;
-  flex-direction: column;
-  text-align: center;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 /* Portfolio section */
 
@@ -259,31 +259,30 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-contain {
+  width: 360px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .portfolio-type {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  padding: 0 16px 0 16px;
-  margin-top: 32px;
-  margin-bottom: 8px;
 }
 .portfolio-category {
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 0 16px 32px 16px;
 }
-.portfolio-type,
-.portfolio-category {
-  width: 360px;
-}
+
 .portfolio-card {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
   display: flex;
+  gap: 24px;
   flex-direction: column;
   width: calc((100% - 24px * 2) / 3);
 }
