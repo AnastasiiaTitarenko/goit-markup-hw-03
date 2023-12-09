@@ -71,6 +71,10 @@ section {
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
+}
+
+.nav-header .logo-web,
+.nav-header .logo-dark {
   margin-right: 76px;
 }
 /* Navigation header */
@@ -258,6 +262,7 @@ section {
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
   justify-content: space-between;
   row-gap: 48px;
 }
@@ -275,6 +280,7 @@ section {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 .portfolio-category {
   line-height: 1.5;
