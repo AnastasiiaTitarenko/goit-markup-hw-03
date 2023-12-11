@@ -73,9 +73,8 @@ section {
   text-decoration: none;
 }
 
-.nav-header .logo-web,
 .nav-header .logo-dark {
-  margin-right: 76px;
+  margin-right: 36px;
 }
 /* Navigation header */
 .nav-header {
@@ -138,7 +137,6 @@ section {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-
   margin: 0 auto 48px auto;
 }
 .hero-btn {
@@ -267,13 +265,10 @@ section {
   row-gap: 48px;
 }
 .portfolio-contain {
-  width: 360px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   letter-spacing: 0.02em;
-  margin-top: 32px;
-  margin-bottom: 8px;
 }
 .portfolio-type {
   color: #2e2f42;
@@ -287,9 +282,6 @@ section {
 }
 
 .portfolio-card {
-  display: flex;
-  gap: 24px;
-  flex-direction: column;
   width: calc((100% - 24px * 2) / 3);
 }
 /* Footer section */
@@ -308,11 +300,11 @@ section {
   text-align: center;
   text-decoration: none;
 }
-.footer .logo-web,
-.footer .logo-light {
+.footer .logo-web {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .footer-item {
   width: 264px;
   color: #f4f4fd;
