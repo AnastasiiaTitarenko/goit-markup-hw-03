@@ -73,6 +73,7 @@ section {
   text-decoration: none;
 }
 
+.nav-header .logo-web,
 .nav-header .logo-dark {
   margin-right: 76px;
 }
