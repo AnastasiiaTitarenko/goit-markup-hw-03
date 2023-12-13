@@ -73,10 +73,15 @@ section {
   text-decoration: none;
 }
 
-.nav-header .logo-web,
-.nav-header .logo-dark {
+.nav-header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-web {
   margin-right: 76px;
 }
+
 /* Navigation header */
 .nav-header {
   display: flex;
